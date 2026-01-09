@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+  --bg-main: #E0E7FF;
+  --card: #FFFFFF;
+  --modal: #F8F8FC;
+  --primary: #1DA1F5;
+}
+
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, system-ui, sans-serif;
+  background: var(--bg-main);
+}
+
+.modal {
+  background-color: var(--modal);
+}
